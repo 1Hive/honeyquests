@@ -1,6 +1,6 @@
 # 🌟 Quests
 
-[![Continuous Integration](README.assets/badge.svg)](https://github.com/1Hive/quests/actions/workflows/continuous-integration.yml)
+[![Continuous Integration](https://github.com/1Hive/quests/actions/workflows/continuous-integration/badge.svg)](https://github.com/1Hive/quests/actions/workflows/continuous-integration.yml)
 
 ## Links
 
