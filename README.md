@@ -1,59 +1,54 @@
-# 🌟 Quests
+## 🌟 Quests
 
 [![Continuous Integration](https://github.com/1Hive/quests/actions/workflows/continuous-integration/badge.svg)](https://github.com/1Hive/quests/actions/workflows/continuous-integration.yml)
 
-## Links
+Quests is a bounty board for 1Hive swarms.
 
-Kanban board : https://trello.com/b/34bFf1ZM/honey-quests-kanban
+### Setup & Launch
 
-Discord : https://discord.gg/NpW2WWEX (Quest Swarm channel)
+Clone the repository
 
-Deployed app : https://quests-d1u7l8p9l-1hive.vercel.app/
+```sh
+git clone git@github.com:1hive/quests
+```
 
-## Setup & Launch
+Install the dependencies
 
-1. Clone
+```sh
+yarn
+```
 
-   > git clone https://github.com/1Hive/quests.git
+Start the project
 
-2. Install
+```sh
+# Rinkeby testnet
+yarn start
 
-   > yarn install
+# Local chain
+yarn start:local &; yarn chain &; yarn deploy &
+```
 
-3. a. Launch with **Rinkeby** test network
+### Docs
 
-   > yarn start
-
-   b. Launch with local chain
-
-   > yarn start:local
-   >
-   > [new terminal]
-   >
-   > yarn chain
-   >
-   > [new terminal]
-   >
-   > yarn deploy
-
-## Doc
-
-### Anonymous features
+#### Anonymous features
 
 - Browse quests
 - Filter Quests
 
-### Account connected features
+#### Account connected features
 
 - Play quest
 - Create quest
 - Fund quest
 
-### Connect
+#### Connect
 
-#### Metamask :
+##### Metamask
 
 1. Select xDai chain
 2. Click Enable Button account
 3. Click on Metamask button
-4. You can now
+
+### Additional Resources
+
+[Kanban board](https://trello.com/b/34bFf1ZM/honey-quests-kanban) | [Discord](https://discord.gg/NpW2WWEX)
