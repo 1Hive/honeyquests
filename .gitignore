@@ -8,7 +8,7 @@ packages/hardhat/*.txt
 packages/hardhat/artifacts
 packages/hardhat/cache
 
-docker/**/data
+docker
 
 packages/subgraph/config/config.json
 packages/react-app/public/aragon-ui
@@ -34,5 +34,4 @@ yarn-debug.log*
 yarn-error.log*
 
 .idea
-
-.github
+.vscode
